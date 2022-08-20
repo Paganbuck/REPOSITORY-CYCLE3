@@ -1,0 +1,16 @@
+o crea un nuevo repositorio en la línea de comando
+echo "# pruebaGif" >> README.md 
+git init 
+git add README.md 
+git commit -m "first commit" 
+git branch -M main 
+git remote add origin https://github.com/econowil/pruebaGif.git
+ git push - u origen principal
+
+o inserte un repositorio existente desde la línea de comando
+git remoto agregar origen https://github.com/econowil/pruebaGif.git
+git rama -M principal 
+git push -u origen principal
+
+
+
