@@ -5,18 +5,18 @@ public class Empresa {
 	//Atributos 
 	private String nombre;
 	private String direccion;
-	private int telefono;
-	private int nit;
+	private long telefono;
+	private String nit;
 
-	//Constructor
+	//Method Constructor
 
-public Empresa(String nombre, String direccion, int telefono, int nit) {
+public Empresa(String nombre, String direccion, long telefono, int nit) {
 	this.nombre = nombre;
 	this.direccion = direccion;
 	this.telefono = telefono;
 	this.nit = nit;
 
-	//Metodo
+	
 
 //Getters y Setters
 
@@ -33,10 +33,10 @@ public String getDireccion() {
 public void setDireccion(String direccion) { 
 	this.direccion = direccion; 
 }
-public int getTelefono() { 
+public long getTelefono() { 
 	return telefono; 
 }
-public void setTelefono(int telefono) { 
+public void setTelefono(long telefono) { 
 	this.telefono = telefono; 
 }
 public int getNit() { 
