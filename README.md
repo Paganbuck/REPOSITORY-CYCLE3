@@ -7,3 +7,4 @@ Juan Diego Bedoya Gutierrez- Desarrollador;
 Nelson Arnoldo Rodriguez Silva- Scrum Master;
 
 Exitos y bencidiones.
+Se agregaran nuevas caracteristicas
