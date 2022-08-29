@@ -50,7 +50,7 @@ Crear entidades y repositorios para la empresa.
 
 **Nota:** 
 
-Desplegar la Sprint 4 interfaz
+Desplegar la interfaz
 
 `
     Es posible acceder a la interfaz a través de internet
