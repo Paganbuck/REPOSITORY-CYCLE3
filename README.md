@@ -24,13 +24,13 @@ supremamente delicadas, el sistema debería permitir llevar una trazabilidad
 de quién registró cada transacción, por lo cual el sistema debe contar con un
 sistema de autenticación.
 
-### **SPRINT1**
+## 🔸 **SPRINT1**
 - Conformación de equipos de trabajo.
 - Creación de una organización en `GitHub`.
 - Creación de un repositorio de ejemplo dentro de la organización, donde cada miembro evidencie un commit.
 
 
-### **SPRINT2**
+## 🔸 **SPRINT2**
 - Modelar una empresa como una clase de Java.
 - Modelar un empleado como una clase de Java.
 - Modelar el movimiento de dinero como una clase de Java.
