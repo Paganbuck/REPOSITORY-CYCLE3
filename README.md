@@ -1,6 +1,7 @@
 # DESCRIPCION DEL PROYECTO
 
-Este repositorio contiene el código del proyecto del ciclo 3 Mision Tic 2022 UDEA.
+Este repositorio contiene el código del proyecto del grupo Array_Team.length[3]
+del ciclo 3 Mision Tic 2022 UDEA.
 
 Se requiere un aplicativo web para que un administrador pueda gestionar los
 ingresos y egresos de una empresa. El sistema deberá permitir visualizar los
