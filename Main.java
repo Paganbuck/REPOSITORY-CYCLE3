@@ -47,6 +47,32 @@ public class Main {
         System.out.println(empleado1.getRolEmpleado());
         System.out.println("FIN DE LA APLICACION!!*******************");
         System.out.println("********************************************");
+
+    ////////////////////OUT PUT DE LA CLASE MovimientoDinero
+    
+    MovimientoDinero movimiento1 = new MovimientoDinero(0.0,0.0,"conceptofault","usuariofault");
+    
+    movimiento1.setMontoDelMovimiento(1000000.0);
+    movimiento1.setMontos_positivos_y_negativos(-5000.0);
+    movimiento1.setConceptoDelMovimiento("Pago a proveedores");
+    movimiento1.setUsuarioEncargadoDelMovimiento("Contador");
+    
+    
+    System.out.println("********************************************");
+    System.out.println("MOVIMIENTO DE DINERO*******************");
+    // imprimo 
+    System.out.println("Monto del movimiento: $"+movimiento1.getMontoDelMovimiento());
+    // imprimo 
+    System.out.println("Monto ingreso/egreso: $"+movimiento1.getMontos_positivos_y_negativos());
+    // imprimo 
+    System.out.println("Concepto del movimiento: "+movimiento1.getConceptoDelMovimiento());
+    // imprimo 
+    System.out.println("Usuario que registra el movimiento: "+movimiento1.getUsuarioEncargadoDelMovimiento()); 
+    System.out.println("");
+    
     
     }
 }
+
+    
+

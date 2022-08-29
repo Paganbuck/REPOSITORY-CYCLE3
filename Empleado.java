@@ -1,4 +1,4 @@
-package com.mycompany.proyectociclo3;
+package codigoEmpresa;
 
 public class Empleado {
     private String nombreEmpleado;
