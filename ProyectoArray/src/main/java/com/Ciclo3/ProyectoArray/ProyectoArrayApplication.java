@@ -2,14 +2,23 @@ package com.Ciclo3.ProyectoArray;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@SpringBootApplication
+@SpringBootApplication (exclude = {SecurityAutoConfiguration.class})
 public class ProyectoArrayApplication {
 
+	@GetMapping("/hello")
+	public String hello(){
+		return "Hola equipo Array... Saldremos vivos de esto!";
+	}
+
 	public static void main(String[] args) {
+
 		SpringApplication.run(ProyectoArrayApplication.class, args);
+
 	}
 
 }
