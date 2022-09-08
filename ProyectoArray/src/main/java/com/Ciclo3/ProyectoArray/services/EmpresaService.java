@@ -1,6 +1,6 @@
-package com.Ciclo3.ProyectoArray.service;
+package com.Ciclo3.ProyectoArray.services;
 
-import com.Ciclo3.ProyectoArray.repositorio.EmpresaRepository;
+import com.Ciclo3.ProyectoArray.repository.EmpresaRepository;
 import org.springframework.stereotype.Service;
 
 @Service
