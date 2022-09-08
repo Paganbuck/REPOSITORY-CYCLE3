@@ -1,58 +1,71 @@
-package codigoEmpresa;
+/// clase actualizada
 
+package com.Ciclo3.ProyectoArray.models;
+
+import javax.persistence.*;
+
+@Entity
+@Table(name="Empleado")
 public class Empleado {
-    private String nombreEmpleado;
-    private String emailEmpleado;
-    private String NombreEmpresa;
-    private String RolEmpleado;
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private int id;
+    private String nombre;
+    private String correo;
+    @ManyToOne
+    @JoinColumn(name = "empresa_id")
+    private Empresa empresa;
+    private String rol;
 
-    public Empleado(String nombreEmpleado, String emailEmpleado, String NombreEmpresa, String RolEmpleado) {
-        this.nombreEmpleado = nombreEmpleado;
-        this.emailEmpleado = emailEmpleado;
-        this.NombreEmpresa = NombreEmpresa;
-        this.RolEmpleado = RolEmpleado;
+
+    public Empleado() {  ///only JPA
     }
 
-    public String getNombreEmpleado() {
-        return nombreEmpleado;
+    public Empleado(String nombre, String correo, Empresa empresa, String rol) {
+        this.nombre = nombre;
+        this.correo = correo;
+        this.empresa = empresa;
+        this.rol = rol;
     }
 
-    public void setNombreEmpleado(String nombreEmpleado) {
-        this.nombreEmpleado = nombreEmpleado;
+    public int getId() {
+        return id;
     }
 
-    public String getEmailEmpleado() {
-        return emailEmpleado;
+    public void setId(int id) {
+        this.id = id;
     }
 
-    public void setEmailEmpleado(String emailEmpleado) {
-        this.emailEmpleado = emailEmpleado;
+    public String getNombre() {
+        return nombre;
     }
 
-    public String getNombreEmpresa() {
-        return NombreEmpresa;
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
     }
 
-    public void setNombreEmpresa(String NombreEmpresa) {
-        this.NombreEmpresa = NombreEmpresa;
+    public String getCorreo() {
+        return correo;
     }
 
-    public String getRolEmpleado() {
-        return RolEmpleado;
+    public void setCorreo(String correo) {
+        this.correo = correo;
     }
 
-    public void setRolEmpleado(String RolEmpleado) {
-        this.RolEmpleado = RolEmpleado;
+    public String getRol() {
+        return rol;
     }
 
-    ///YA CLONE EL REPOSITORIO
-    
-    ////AGREGAMOS OTRO COMENTARIO DESDE GITHUB
-    
-   
-    
-    
-    
-    
-    
+    public void setRol(String rol) {
+        this.rol = rol;
+    }
+
+    public Empresa getEmpresa() {
+        return empresa;
+    }
+
+    public void setEmpresa(Empresa empresa) {
+        this.empresa = empresa;
+    }
 }
+
