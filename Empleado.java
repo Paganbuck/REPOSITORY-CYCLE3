@@ -44,6 +44,8 @@ public class Empleado {
     public void setRolEmpleado(String RolEmpleado) {
         this.RolEmpleado = RolEmpleado;
     }
+
+    ///YA CLONE EL REPOSITORIO
     
    
     
