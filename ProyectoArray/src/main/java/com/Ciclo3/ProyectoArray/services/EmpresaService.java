@@ -1,18 +1,18 @@
 package  com.Ciclo3.ProyectoArray.services;
 
+import antlr.collections.List;
 import com.Ciclo3.ProyectoArray.models.Empresa;
 import com.Ciclo3.ProyectoArray.repository.EmpresaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
-import java.util.List;
 
 @Service
 public class EmpresaService {
 
     @Autowired //Conectamos esta clase con el repository de Empresa
-    EmpresaRepository empresaRepository;  //Creamos un objeto llamdo empresaRepository, para poder usar los metodos del JpaRepository
+    EmpresaRepository empresaRepository;  //Creamos un objeto llamdo empresaRepository, para poder usar los metodos del Jpa Repository
 
     //Metodo que retorna la lista de empresas estos metodos se heredaron de JpaRepository
     public List<Empresa> listarAllEmpresas(){
