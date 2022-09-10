@@ -20,3 +20,19 @@
             }
             </style>
 </head>
+<body>
+<div class="container">
+    <h1>Agregue aqui los datos de la nueva empresa</h1> <!--Titulo -->
+    <br>
+    <!--Crear formulario para llenar los datos de la empresa y guardarlo en el objeto emp -->
+    <form th:action="@{/GuardarEmpresa}" th:object="${empNueva}" method="post">
+
+        <!--Campo para nombre-->
+        <div class="row">
+            <div class="form-group col-md-12">
+                <label class="col-md-3" for="nombre">Nombre de la empresa:</label>
+                <div class="col-md-6">
+                    <input type="text" th:field="*{nombre}" class="form-control" id="nombre" required="required">
+                </div>
+            </div>
+        </div>
