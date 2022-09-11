@@ -15,3 +15,6 @@ public class Empleado {
     private Empresa empresa;
     private String rol;
 
+    public Empleado() {  ///only JPA
+    }
+
