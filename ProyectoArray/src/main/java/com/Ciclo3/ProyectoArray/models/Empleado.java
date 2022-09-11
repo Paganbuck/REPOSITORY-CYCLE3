@@ -18,3 +18,10 @@ public class Empleado {
     public Empleado() {  ///only JPA
     }
 
+    public Empleado(String nombre, String correo, Empresa empresa, String rol) {
+        this.nombre = nombre;
+        this.correo = correo;
+        this.empresa = empresa;
+        this.rol = rol;
+    }
+
