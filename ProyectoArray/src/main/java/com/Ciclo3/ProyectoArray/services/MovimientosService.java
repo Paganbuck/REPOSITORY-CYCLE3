@@ -37,10 +37,12 @@ public class MovimientosService {
   }
 
   public ArrayList<MovimientoDinero> obtenerPorEmpleado(Integer id) { //Obterner teniendo en cuenta el id del empleado
+
     return movimientosRepository.findByEmpleado(id);
   }
 
   public ArrayList<MovimientoDinero> obtenerPorEmpresa(Integer id) { //Obtener movimientos teniendo en cuenta el id de la empresa a la que pertencen los empleados que la registraron
+
     return movimientosRepository.findByEmpresa(id);
   }
 }
