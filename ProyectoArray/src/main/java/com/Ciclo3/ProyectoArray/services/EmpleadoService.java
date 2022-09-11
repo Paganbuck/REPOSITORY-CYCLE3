@@ -23,7 +23,7 @@ public class EmpleadoService {
   }
   //Metodo para buscar empleados por ID
   public Optional<Empleado> getEmpleadoById(Integer id){  //Existe Optionaly asi se podria usar
-    return empleadoRepository.findById(id);
+      return empleadoRepository.findById(id);
   }
 
   //Metodo para guardar o actualizar Empleados
