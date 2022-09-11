@@ -14,5 +14,8 @@ public class ProyectoArrayApplication {
 		SpringApplication.run(ProyectoArrayApplication.class, args);
 
 	}
-
+/*el dia 10 de septiembre se presento el backend de la aplicacion al tutor y se
+comprueba que corre correctamente con las requests GET, POST, PATCH, DELETE.
+ya puede pasarse el avance de la apliacion a la rama release.
+ */
 }
