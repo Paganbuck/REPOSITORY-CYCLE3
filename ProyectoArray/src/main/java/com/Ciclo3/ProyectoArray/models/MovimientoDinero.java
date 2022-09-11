@@ -27,14 +27,17 @@ public class MovimientoDinero {
 
 
     public int getId() {
+
         return id;
     }
 
     public void setId(int id) {
+
         this.id = id;
     }
 
     public long getMonto() {
+
         return monto;
     }
 
@@ -43,18 +46,22 @@ public class MovimientoDinero {
     }
 
     public String getConcepto() {
+
         return concepto;
     }
 
     public void setConcepto(String concepto) {
+
         this.concepto = concepto;
     }
 
     public Empleado getUsuario() {
+
         return usuario;
     }
 
     public void setUsuario(Empleado usuario) {
+
         this.usuario = usuario;
     }
 
