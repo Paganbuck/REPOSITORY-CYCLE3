@@ -42,4 +42,7 @@ public class Empleado {
     public void setCorreo(String correo) {
         this.correo = correo;
     }
+    public String getRol() {
+        return rol;
+    }
 
