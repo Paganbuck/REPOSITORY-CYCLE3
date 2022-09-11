@@ -51,4 +51,8 @@ public class Empleado {
     public Empresa getEmpresa() {
         return empresa;
     }
+    public void setEmpresa(Empresa empresa) {
+        this.empresa = empresa;
+    }
+}
 
