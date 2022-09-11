@@ -24,4 +24,7 @@ public class Empleado {
         this.empresa = empresa;
         this.rol = rol;
     }
+    public int getId() {
+        return id;
+    }
 
