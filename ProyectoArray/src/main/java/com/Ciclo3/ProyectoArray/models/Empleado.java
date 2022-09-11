@@ -36,4 +36,7 @@ public class Empleado {
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
+    public String getCorreo() {
+        return correo;
+    }
 
