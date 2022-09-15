@@ -7,7 +7,6 @@ import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
 
-
 @Repository
 public interface MovimientosRepository extends JpaRepository<MovimientoDinero, Integer> {
     //Metodo para filtrar movimientos por empleado
@@ -30,4 +29,3 @@ public interface MovimientosRepository extends JpaRepository<MovimientoDinero, I
     @Query(value="select sum(monto) from movimientos where empleado_id in (select id from empleado where empresa_id= ?1)", nativeQuery = true)
     public abstract Long MontosPorEmpresa(Integer id); //Id de la empresa
 }
-

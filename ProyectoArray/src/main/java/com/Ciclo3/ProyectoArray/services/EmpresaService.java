@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 import java.util.ArrayList;
 import java.util.List;
 
+//Le decimos a Spring que esta clase es de servicios
 @Service
 public class EmpresaService {
     @Autowired //Conectamos esta clase con el repository de Empresa
@@ -45,4 +46,3 @@ public class EmpresaService {
     }
 
 }
-

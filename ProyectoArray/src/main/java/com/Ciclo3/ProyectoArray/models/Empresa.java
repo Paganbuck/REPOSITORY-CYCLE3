@@ -13,7 +13,7 @@ public class Empresa {
     private String telefono;
     private String NIT;
 
-    public Empresa() {  //only JPA
+    public Empresa() {
     }
 
     public Empresa(String nombre, String direccion, String telefono, String NIT) {
@@ -22,6 +22,7 @@ public class Empresa {
         this.telefono = telefono;
         this.NIT = NIT;
     }
+
     public int getId() {
         return id;
     }

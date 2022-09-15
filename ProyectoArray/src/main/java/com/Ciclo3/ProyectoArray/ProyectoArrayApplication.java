@@ -1,21 +1,36 @@
 package com.Ciclo3.ProyectoArray;
 
-
+import com.Ciclo3.ProyectoArray.models.Empresa;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
 
+/*
+@RestController
 
-@SpringBootApplication (exclude = {SecurityAutoConfiguration.class})
+ */
+@SpringBootApplication(exclude = {SecurityAutoConfiguration.class})
 public class ProyectoArrayApplication {
 
-	public static void main(String[] args) {
+	/*
 
-		SpringApplication.run(ProyectoArrayApplication.class, args);
-
+	@GetMapping("/hello")
+	public String hello(){
+		return "Hola equipo, Saldremos vivos de esto!!!!";
 	}
-/*el dia 10 de septiembre se presento el backend de la aplicacion al tutor y se
-comprueba que corre correctamente con las requests GET, POST, PATCH, DELETE.
-ya puede pasarse el avance de la apliacion a la rama release.
- */
+
+	@GetMapping("/test")
+	public String test(){
+		Empresa empresa1 = new Empresa("Tekman SAS", "calle de la rumba","3112633288","800900-4");
+		empresa1.setNombre("AREPAS LA SABROSA");
+		return empresa1.getNombre();
+	}
+
+*/
+	public static void main(String[] args) {
+		SpringApplication.run(ProyectoArrayApplication.class, args);
+	}
+
 }

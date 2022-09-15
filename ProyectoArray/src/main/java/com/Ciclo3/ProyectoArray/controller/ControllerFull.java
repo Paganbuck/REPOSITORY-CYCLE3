@@ -1,6 +1,7 @@
 package com.Ciclo3.ProyectoArray.controller;
+///este controlador es de tipo full controller
+///hasta aca se trabajo el fullcontroller, mas adelante pasamos a REST
 
-//cambiamos RESTcontroller por Controller Full
 import com.Ciclo3.ProyectoArray.models.Empleado;
 import com.Ciclo3.ProyectoArray.models.Empresa;
 import com.Ciclo3.ProyectoArray.models.MovimientoDinero;
@@ -16,40 +17,35 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-
 import java.util.List;
 
-
 @Controller
-public class Controlador {
-
-    //conectamos cada controlador a su respectivo servicio
+public class ControllerFull {
     @Autowired
     EmpresaService empresaService;
-
-    //conectamos cada controlador a su respectivo servicio
     @Autowired
     EmpleadoService empleadoService;
-
-    //conectamos cada controlador a su respectivo servicio
     @Autowired
     MovimientosService movimientosService;
 
     @Autowired
     MovimientosRepository movimientosRepositor;
 
-
-
-    /*INICIO EMPRESAS***************************************************************************************
-     *************************************************************************************************
-     * **********************************************************************************************
-     */
-    @GetMapping({"/","/VerEmpresas"})
-    public String viewEmpresas(Model model, @ModelAttribute("mensaje") String mensaje) {
-        List<Empresa> listaEmpresas = empresaService.getAllEmpresas();
-        model.addAttribute("emplist", listaEmpresas);
-        model.addAttribute("mensaje", mensaje);
+    //EMPRESAS
+    @GetMapping ({"/","/VerEmpresas"})
+    public String viewEmpresas(Model model, @ModelAttribute("mensaje") String mensaje){
+        List<Empresa> listaEmpresas=empresaService.getAllEmpresas();
+        model.addAttribute("emplist",listaEmpresas);
+        model.addAttribute("mensaje",mensaje);
         return "verEmpresas"; //Llamamos al HTML
+    }
+
+    @GetMapping("/AgregarEmpresa")
+    public String nuevaEmpresa(Model model, @ModelAttribute("mensaje") String mensaje){
+        Empresa emp= new Empresa();
+        model.addAttribute("emp",emp);
+        model.addAttribute("mensaje",mensaje);
+        return "agregarEmpresa";
     }
 
     @PostMapping("/GuardarEmpresa")
@@ -92,17 +88,10 @@ public class Controlador {
         redirectAttributes.addFlashAttribute("mensaje", "deleteError");
         return "redirect:/VerEmpresas";
     }
-    /*FINAL EMPRESAS***************************************************************************************
-     *************************************************************************************************
-     * **********************************************************************************************
-     */
 
 
 
-    /*INICIO EMPLEADO***************************************************************************************
-     *************************************************************************************************
-     * **********************************************************************************************
-     */
+    //EMPLEADOS
     @GetMapping ("/VerEmpleados")
     public String viewEmpleados(Model model, @ModelAttribute("mensaje") String mensaje){
         List<Empleado> listaEmpleados=empleadoService.getAllEmpleado();
@@ -170,16 +159,9 @@ public class Controlador {
         return "verEmpleados"; //Llamamos al html con el emplelist de los empleados filtrados
     }
 
-    /*FINAL EMPLEADO***************************************************************************************
-     *************************************************************************************************
-     * **********************************************************************************************
-     */
 
+    //MOVIMIENTOS**********************************************************************************************
 
-    /*INICIO MOVIMIENTO DINERO***************************************************************************************
-     *************************************************************************************************
-     * **********************************************************************************************
-     */
     @RequestMapping ("/VerMovimientos")// Controlador que nos lleva al template donde veremos todos los movimientos
     public String viewMovimientos(@RequestParam(value="pagina", required=false, defaultValue = "1") int NumeroPagina,
                                   @RequestParam(value="medida", required=false, defaultValue = "5") int medida,
@@ -263,11 +245,4 @@ public class Controlador {
         model.addAttribute("SumaMontos",sumaMonto);
         return "verMovimientos"; //Llamamos al HTML
     }
-
-    /*FINAL MOVIMIENTO DINERO***************************************************************************************
-     *************************************************************************************************
-     * **********************************************************************************************
-     */
-
-
 }
