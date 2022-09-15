@@ -42,10 +42,10 @@
         <th>Dirección</th>
         <th>Telefono</th>
         <th>NIT</th>
-        <th>Empleados</th>
-        <th>Movimientos</th>
-        <th>Editar</th>
-        <th>Eliminar</th>
+        <th class="text-center">Empleados</th>
+        <th class="text-center">Movimientos</th>
+        <th class="text-center">Editar</th>
+        <th class="text-center">Eliminar</th>
 
     </tr>
 
@@ -57,10 +57,10 @@
         <td th:text="${empresa.direccion}"></td>
         <td th:text="${empresa.telefono}"></td>
         <td th:text="${empresa.NIT}"></td>
-        <td><button type="button" class="btn btn"><a th:href="@{/Empresa/{id}/Empleados (id=${empresa.id})}">Ver</a></button></td>
-        <td><button type="button" class="btn btn"><a th:href="@{/Empresa/{id}/Movimientos (id=${empresa.id})}">Ver</a></button></td>
-        <td><button type="button" class="btn btn"><a th:href="@{/EditarEmpresa/{id}(id=${empresa.id})}">Editar</a></button></td>
-        <td><button type="button" class="btn btn-danger"><a th:href="@{/EliminarEmpresa/{id}(id=${empresa.id})}">Eliminar</a></button></td>
+        <td class="text-center"><button type="button" class="btn btn"><a th:href="@{/Empresa/{id}/Empleados (id=${empresa.id})}">Ver</a></button></td>
+        <td class="text-center"><button type="button" class="btn btn"><a th:href="@{/Empresa/{id}/Movimientos (id=${empresa.id})}">Ver</a></button></td>
+        <td class="text-center"><button type="button" class="btn btn"><a th:href="@{/EditarEmpresa/{id}(id=${empresa.id})}">Editar</a></button></td>
+        <td class="text-center"><button type="button" class="btn btn-danger"><a th:href="@{/EliminarEmpresa/{id}(id=${empresa.id})}">Eliminar</a></button></td>
     </tr>
 </table>
 
