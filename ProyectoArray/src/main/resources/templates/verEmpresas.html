@@ -11,7 +11,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
     <style>
     a{
-    color:black;
+    color:white;
     }
     a:hover {
     color: black;
@@ -26,7 +26,6 @@
     <h1> LISTA DE EMPRESAS</h1>
 
     <!-- vamos a crear 2 botones agrupados para agregar nuevas empresas y para ir a la lista de empleados -->
-    <br><br>
     <p>Click en la opcion deseada:</p>
     <div class="btn-group">
         <button type="button" class="btn btn-primary"><a th:href="@{/AgregarEmpresa}">Agregar Nueva Empresa</a></button>
@@ -38,14 +37,14 @@
     <br><table class="table table-bordered">
     <tr>
         <th>ID</th>
-        <th>Nombre</th>
-        <th>Dirección</th>
-        <th>Telefono</th>
+        <th>NOMBRE</th>
+        <th>DIRECCION</th>
+        <th>TELEFONO</th>
         <th>NIT</th>
-        <th class="text-center">Empleados</th>
-        <th class="text-center">Movimientos</th>
-        <th class="text-center">Editar</th>
-        <th class="text-center">Eliminar</th>
+        <th class="text-center">EMPLEADOS</th>
+        <th class="text-center">MOVIMIENTOS/EMPRESA</th>
+        <th class="text-center">EDITAR</th>
+        <th class="text-center">ELIMINAR</th>
 
     </tr>
 
@@ -57,9 +56,9 @@
         <td th:text="${empresa.direccion}"></td>
         <td th:text="${empresa.telefono}"></td>
         <td th:text="${empresa.NIT}"></td>
-        <td class="text-center"><button type="button" class="btn btn"><a th:href="@{/Empresa/{id}/Empleados (id=${empresa.id})}">Ver</a></button></td>
-        <td class="text-center"><button type="button" class="btn btn"><a th:href="@{/Empresa/{id}/Movimientos (id=${empresa.id})}">Ver</a></button></td>
-        <td class="text-center"><button type="button" class="btn btn"><a th:href="@{/EditarEmpresa/{id}(id=${empresa.id})}">Editar</a></button></td>
+        <td class="text-center"><button type="button" class="btn btn-primary"><a th:href="@{/Empresa/{id}/Empleados (id=${empresa.id})}">Ver</a></button></td>
+        <td class="text-center"><button type="button" class="btn btn-primary"><a th:href="@{/Empresa/{id}/Movimientos (id=${empresa.id})}">Ver</a></button></td>
+        <td class="text-center"><button type="button" class="btn btn-primary"><a th:href="@{/EditarEmpresa/{id}(id=${empresa.id})}">Editar</a></button></td>
         <td class="text-center"><button type="button" class="btn btn-danger"><a th:href="@{/EliminarEmpresa/{id}(id=${empresa.id})}">Eliminar</a></button></td>
     </tr>
 </table>
