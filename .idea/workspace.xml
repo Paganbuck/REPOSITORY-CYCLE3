@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15faa74c-0f37-497b-9be6-ad2b258447ce" name="Changes" comment="Se agrega dependencia thymeleaf" />
+    <list default="true" id="15faa74c-0f37-497b-9be6-ad2b258447ce" name="Changes" comment="Realizo Pull">
+      <change beforePath="$PROJECT_DIR$/ProyectoArray/ProyectoArray.iml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -160,7 +162,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662843929127</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Realizo Pull">
+      <created>1663430493372</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1663430493373</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -181,6 +190,7 @@
     <MESSAGE value="Se inicia el codigo de EmpresaReposit&#10;Se inicia codigo de EmpresaRepository.java &#10;Se crea la Interfaz de EmpleadoRepository.java&#10;Se crea la clase Empleado desde la carpeta Service" />
     <MESSAGE value="Creando servicio para movimiento de dinero" />
     <MESSAGE value="Se agrega dependencia thymeleaf" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se agrega dependencia thymeleaf" />
+    <MESSAGE value="Realizo Pull" />
+    <option name="LAST_COMMIT_MESSAGE" value="Realizo Pull" />
   </component>
 </project>
