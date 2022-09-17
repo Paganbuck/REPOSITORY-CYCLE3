@@ -1,0 +1,14 @@
+Index: ProyectoArray/src/main/java/com/Ciclo3/ProyectoArray/repository/EmpresaRepository.java
+===================================================================
+diff --git a/ProyectoArray/src/main/java/com/Ciclo3/ProyectoArray/repository/EmpresaRepository.java b/ProyectoArray/src/main/java/com/Ciclo3/ProyectoArray/repository/EmpresaRepository.java
+--- a/ProyectoArray/src/main/java/com/Ciclo3/ProyectoArray/repository/EmpresaRepository.java	
++++ b/ProyectoArray/src/main/java/com/Ciclo3/ProyectoArray/repository/EmpresaRepository.java	
+@@ -5,7 +5,7 @@
+ import org.springframework.stereotype.Repository;
+ 
+ @Repository
+-public interface EmpresaRepository extends JpaRepository<Empresa, Integer> {
++public interface EmpresaRepository extends JpaRepository<Empresa,Integer> {
+ }
+ 
+ 
