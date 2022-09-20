@@ -23,11 +23,13 @@ public class MovimientosService {
     return movimientosRepository.findById(id).get();
   }
 
-  public MovimientoDinero saveOrUpdateMovimiento(MovimientoDinero movimientoDinero){ //Guardar o actualizar elementos
-    MovimientoDinero mov=movimientosRepository.save(movimientoDinero);
-    return mov;
+  //se actualiza este service para que nos regrese un true   o un false
+  public MovimientoDinero saveOrUpdateMovimiento(MovimientoDinero movimientoDinero) { //Guardar o actualizar elementos
+    if (movimientosRepository.findById(movimientoDinero.getId())!=null){
+      return true;
+    }
+    return false;
   }
-
   public boolean deleteMovimiento(Integer id){ //Eliminar movimiento por id
     movimientosRepository.deleteById(id); //Eliminar usando el metodo que nos ofrece el repositorio
     if(this.movimientosRepository.findById(id).isPresent()){ //Si al buscar el movimiento lo encontramos, no se eliminó (false)
