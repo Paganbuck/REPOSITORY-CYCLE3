@@ -1,6 +1,7 @@
 package com.Ciclo3.ProyectoArray.models;
 
 import javax.persistence.*;
+import java.util.Date;
 
 @Entity
 @Table(name="Movimientos")
@@ -65,6 +66,13 @@ MovimientoDinero {
 
         this.usuario = usuario;
     }
+    public Date getFecha() {
+        return fecha;
+    }
 
+    public void setFecha(Date fecha) {
+        this.fecha = fecha;
+    }
+}
 
 }

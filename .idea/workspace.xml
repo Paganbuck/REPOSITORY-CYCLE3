@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15faa74c-0f37-497b-9be6-ad2b258447ce" name="Changes" comment="Se actualiza en movimientosService, movimiento de dinero.">
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy-datasource.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy-datasource.xml" afterDir="false" />
+    <list default="true" id="15faa74c-0f37-497b-9be6-ad2b258447ce" name="Changes" comment="Actualizando controlador">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProyectoArray/ProyectoArray.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoArray/ProyectoArray.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProyectoArray/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoArray/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProyectoArray/src/main/java/com/Ciclo3/ProyectoArray/ProyectoArrayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoArray/src/main/java/com/Ciclo3/ProyectoArray/ProyectoArrayApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProyectoArray/src/main/java/com/Ciclo3/ProyectoArray/controller/Controlador.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoArray/src/main/java/com/Ciclo3/ProyectoArray/controller/Controlador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProyectoArray/src/main/java/com/Ciclo3/ProyectoArray/services/MovimientosService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoArray/src/main/java/com/Ciclo3/ProyectoArray/services/MovimientosService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProyectoArray/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoArray/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProyectoArray/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoArray/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProyectoArray/src/main/java/com/Ciclo3/ProyectoArray/models/MovimientoDinero.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoArray/src/main/java/com/Ciclo3/ProyectoArray/models/MovimientoDinero.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663648218895</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Actualizando controlador">
+      <created>1663827360443</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1663827360443</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -242,6 +241,7 @@
     <MESSAGE value="Agrego Head lista de Movimientos" />
     <MESSAGE value="creo formulario para llenar datos del movimiento." />
     <MESSAGE value="Se actualiza en movimientosService, movimiento de dinero." />
-    <option name="LAST_COMMIT_MESSAGE" value="Se actualiza en movimientosService, movimiento de dinero." />
+    <MESSAGE value="Actualizando controlador" />
+    <option name="LAST_COMMIT_MESSAGE" value="Actualizando controlador" />
   </component>
 </project>
