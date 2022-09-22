@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JpbDataSourceConfig">
+    <data-sources>
+      <data-source id="8e622964-5c17-4a50-a8f7-7a52dc4a4640" name="Proyecto Ciclo 3" url="jdbc:postgresql://localhost/Proyecto Ciclo 3" driverClass="org.postgresql.Driver" />
+      <data-source id="60aa83ae-49fe-40c9-9226-12e05679ee59" name="POSTGRES" url="jdbc:postgresql://localhost/Proyecto Ciclo 3" driverClass="org.postgresql.Driver" />
+      <data-source id="9baa6341-646a-4602-a406-e95c935119ed" name="Proyecto Ciclo3" url="jdbc:oracle:thin:@//localhost/Proyecto Ciclo 3" driverClass="oracle.jdbc.OracleDriver" />
+      <data-source id="1a08441e-2f5e-438e-91e0-6cffaae76dfe" name="ProyectoCiclo3" url="jdbc:mysql://localhost/Proyecto Ciclo 3?useSSL=false&amp;allowMultiQueries=true&amp;serverTimezone=UTC" driverClass="com.mysql.jdbc.Driver" />
+      <data-source id="c4c94769-4eea-4274-ae29-a6490719ecaf" name="Proyecto Ciclo " url="jdbc:postgresql://localhost/Proyecto Ciclo 3" driverClass="org.postgresql.Driver" />
+    </data-sources>
     <data-source-infos>
       <data-source-info id="" persistence-unit-name="Default" />
     </data-source-infos>

@@ -20,13 +20,14 @@ public class MovimientosService {
   }
 
   public MovimientoDinero getMovimientoById(Integer id){ //Ver movimientos por id
+
     return movimientosRepository.findById(id).get();
   }
 
   //se actualiza este service para que nos regrese un true   o un false
-  public MovimientoDinero saveOrUpdateMovimiento(MovimientoDinero movimientoDinero) { //Guardar o actualizar elementos
+  public boolean saveOrUpdateMovimiento(MovimientoDinero movimientoDinero) { //Guardar o actualizar elementos
     if (movimientosRepository.findById(movimientoDinero.getId())!=null){
-      return true;
+       return true;
     }
     return false;
   }
