@@ -35,5 +35,5 @@ public interface MovimientosRepository extends JpaRepository<MovimientoDinero, I
     public abstract Integer IdPorCorreo(String correo);
 }
 
-}
+
 
