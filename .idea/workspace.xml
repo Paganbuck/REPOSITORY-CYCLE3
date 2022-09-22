@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15faa74c-0f37-497b-9be6-ad2b258447ce" name="Changes" comment="Agregando metodo para ver la suma de todo los movimientos.">
+    <list default="true" id="15faa74c-0f37-497b-9be6-ad2b258447ce" name="Changes" comment="Agregando metodo para ver la suma montos por movimientos y metodo para ver la suma de losmovimientos por empresa.">
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProyectoArray/src/main/java/com/Ciclo3/ProyectoArray/repository/MovimientosRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoArray/src/main/java/com/Ciclo3/ProyectoArray/repository/MovimientosRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -234,7 +236,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663828397584</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Agregando metodo para ver la suma montos por movimientos y metodo para ver la suma de losmovimientos por empresa.">
+      <created>1663828483862</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1663828483862</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -264,6 +273,7 @@
     <MESSAGE value="Actualizando controlador" />
     <MESSAGE value="Actualizando MovimientoDinero" />
     <MESSAGE value="Agregando metodo para ver la suma de todo los movimientos." />
-    <option name="LAST_COMMIT_MESSAGE" value="Agregando metodo para ver la suma de todo los movimientos." />
+    <MESSAGE value="Agregando metodo para ver la suma montos por movimientos y metodo para ver la suma de losmovimientos por empresa." />
+    <option name="LAST_COMMIT_MESSAGE" value="Agregando metodo para ver la suma montos por movimientos y metodo para ver la suma de losmovimientos por empresa." />
   </component>
 </project>
