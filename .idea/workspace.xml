@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15faa74c-0f37-497b-9be6-ad2b258447ce" name="Changes" comment="Agregando metodo para ver la suma montos por movimientos y metodo para ver la suma de losmovimientos por empresa.">
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProyectoArray/src/main/java/com/Ciclo3/ProyectoArray/repository/MovimientosRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoArray/src/main/java/com/Ciclo3/ProyectoArray/repository/MovimientosRepository.java" afterDir="false" />
+    <list default="true" id="15faa74c-0f37-497b-9be6-ad2b258447ce" name="Changes" comment=",">
+      <change beforePath="$PROJECT_DIR$/ProyectoArray/src/main/java/com/Ciclo3/ProyectoArray/controller/Controlador.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoArray/src/main/java/com/Ciclo3/ProyectoArray/controller/Controlador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProyectoArray/src/main/java/com/Ciclo3/ProyectoArray/services/MovimientosService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoArray/src/main/java/com/Ciclo3/ProyectoArray/services/MovimientosService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -243,7 +242,21 @@
       <option name="project" value="LOCAL" />
       <updated>1663828483862</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="se agrega metodo que me trae el id de un usuario con el correo">
+      <created>1663852456451</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1663852456451</updated>
+    </task>
+    <task id="LOCAL-00020" summary=",">
+      <created>1663852539052</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1663852539052</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -274,6 +287,9 @@
     <MESSAGE value="Actualizando MovimientoDinero" />
     <MESSAGE value="Agregando metodo para ver la suma de todo los movimientos." />
     <MESSAGE value="Agregando metodo para ver la suma montos por movimientos y metodo para ver la suma de losmovimientos por empresa." />
-    <option name="LAST_COMMIT_MESSAGE" value="Agregando metodo para ver la suma montos por movimientos y metodo para ver la suma de losmovimientos por empresa." />
+    <MESSAGE value="seagrega metodo que me trae el id de un usuario con el correo" />
+    <MESSAGE value="se agrega metodo que me trae el id de un usuario con el correo" />
+    <MESSAGE value="," />
+    <option name="LAST_COMMIT_MESSAGE" value="," />
   </component>
 </project>

@@ -48,4 +48,8 @@ public class MovimientosService {
 
     return movimientosRepository.findByEmpresa(id);
   }
+
+  public Long MontosPorEmpleado(Integer id) {
+    return null;
+  }
 }
