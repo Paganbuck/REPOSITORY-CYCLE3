@@ -193,9 +193,10 @@ public class Controlador {
         return "redirect:/agregarMovimientos";
     }
 
-     redirectAttributes.addFlashAttribute("mensaje","saveError");
+        redirectAttributes.addFlashAttribute("mensaje","saveError");
         return"redirect:/AgregarMovimiento";
-     }
+    }
+
 
     @GetMapping("/EditarMovimiento/{id}")
     public String editarMovimento(Model model, @PathVariable Integer id, @ModelAttribute("mensaje") String mensaje){
