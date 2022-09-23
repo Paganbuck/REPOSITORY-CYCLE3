@@ -18,3 +18,24 @@
             }
             </style>
 </head>
+<body>
+<div class="container">
+    <h1>Agregue aqui los datos del movimiento</h1> <!--Titulo -->
+    <br>
+    <!--Crear formulario para llenar los datos del movimiento y guardarlo en el objeto mov -->
+    <form th:action="@{/GuardarMovimiento}" th:object="${mov}" method="post">
+        <div class="row">
+            <div class="form-group col-md-12">
+                <label class="col-md-3" for="concepto">Concepto del movimiento:</label>
+                <div class="col-md-6">
+                    <select th:field="*{concepto}",class="form-control",id=concepto,required="required">
+                        <option th: value=1>Servicios de Hotel</option>
+                        <option th: value=2>Papeleria</option>
+                        <option th: value=2>Tributarios</option>
+                        <option th: value=2>Operativos</option>
+                        <option th: value=2>Salud</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
