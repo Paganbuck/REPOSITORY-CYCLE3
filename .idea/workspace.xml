@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15faa74c-0f37-497b-9be6-ad2b258447ce" name="Changes" comment="modificando editar movimiento">
+    <list default="true" id="15faa74c-0f37-497b-9be6-ad2b258447ce" name="Changes" comment="creando editar  empleado">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProyectoArray/src/main/java/com/Ciclo3/ProyectoArray/models/MovimientoDinero.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoArray/src/main/java/com/Ciclo3/ProyectoArray/models/MovimientoDinero.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -313,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663901631701</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="creando editar  empleado">
+      <created>1663901761435</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1663901761435</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -328,7 +336,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Trabajando este codigo" />
     <MESSAGE value="Se inicia el codigo de EmpresaReposit&#10;Se inicia codigo de EmpresaRepository.java" />
     <MESSAGE value="Se inicia el codigo de EmpresaReposit&#10;Se inicia codigo de EmpresaRepository.java&#10;Se crea la Interfaz de EmpleadoRepository.java" />
     <MESSAGE value="Se inicia el codigo de EmpresaReposit&#10;Se inicia codigo de EmpresaRepository.java &#10;Se crea la Interfaz de EmpleadoRepository.java&#10;Se crea la clase Empleado desde la carpeta Service" />
@@ -353,6 +360,7 @@
     <MESSAGE value="Agregando comentario" />
     <MESSAGE value="modificando veo empresas" />
     <MESSAGE value="modificando editar movimiento" />
-    <option name="LAST_COMMIT_MESSAGE" value="modificando editar movimiento" />
+    <MESSAGE value="creando editar  empleado" />
+    <option name="LAST_COMMIT_MESSAGE" value="creando editar  empleado" />
   </component>
 </project>

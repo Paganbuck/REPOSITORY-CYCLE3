@@ -1,45 +1,44 @@
 package com.Ciclo3.ProyectoArray.models;
 
+import org.springframework.format.annotation.DateTimeFormat;
+
 import javax.persistence.*;
 import java.util.Date;
 
 @Entity
 @Table(name="Movimientos")
-public class
-MovimientoDinero {
+public class MovimientoDinero {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private long monto;
     private String concepto;
-
     @ManyToOne
-    @JoinColumn(name = "usuario_id")
+    @JoinColumn(name = "empleado_id")
     private Empleado usuario;
 
+    @DateTimeFormat(pattern="yyyy-MM-dd")
+    private Date fecha;
 
-    public MovimientoDinero() { ///only JPA
+    public MovimientoDinero() {
     }
 
-    public MovimientoDinero(long monto, String concepto, Empleado usuario) {
+    public MovimientoDinero(long monto, String concepto, Empleado empleado, Date fecha) {
         this.monto = monto;
         this.concepto = concepto;
-        this.usuario = usuario;
+        this.usuario = empleado;
+        this.fecha=fecha;
     }
 
-
     public int getId() {
-
         return id;
     }
 
     public void setId(int id) {
-
         this.id = id;
     }
 
     public long getMonto() {
-
         return monto;
     }
 
@@ -48,24 +47,21 @@ MovimientoDinero {
     }
 
     public String getConcepto() {
-
         return concepto;
     }
 
     public void setConcepto(String concepto) {
-
         this.concepto = concepto;
     }
 
     public Empleado getUsuario() {
-
         return usuario;
     }
 
-    public void setUsuario(Empleado usuario) {
-
-        this.usuario = usuario;
+    public void setUsuario(Empleado empleado) {
+        this.usuario = empleado;
     }
+
     public Date getFecha() {
         return fecha;
     }
@@ -73,6 +69,4 @@ MovimientoDinero {
     public void setFecha(Date fecha) {
         this.fecha = fecha;
     }
-}
-
 }
