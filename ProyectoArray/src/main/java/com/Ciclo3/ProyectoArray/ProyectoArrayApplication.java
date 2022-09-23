@@ -11,7 +11,7 @@ public class ProyectoArrayApplication {
 
 	@GetMapping("/hello")
 	public String hello(){
-		return "Hola Ciclo 3... Saldremos vivos de esto!";
+		return "Hola Grupo ArrayTeamLenght3.. Saldremos vivos de esto!";
 	}
 
 	@GetMapping("/test")
