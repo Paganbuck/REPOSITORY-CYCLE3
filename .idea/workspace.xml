@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15faa74c-0f37-497b-9be6-ad2b258447ce" name="Changes" comment="modificando codigo.">
-      <change beforePath="$PROJECT_DIR$/ProyectoArray/src/main/java/com/Ciclo3/ProyectoArray/ProyectoArrayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoArray/src/main/java/com/Ciclo3/ProyectoArray/ProyectoArrayApplication.java" afterDir="false" />
+    <list default="true" id="15faa74c-0f37-497b-9be6-ad2b258447ce" name="Changes" comment="Agregando comentario">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProyectoArray/src/main/java/com/Ciclo3/ProyectoArray/controller/Controlador.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProyectoArray/src/main/java/com/Ciclo3/ProyectoArray/controller/Controlador.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +87,7 @@
       <recent name="C:\Users\LENOVO\Desktop\CICLO 3\ArrayTL3\REPOSITORY-CYCLE3\Proyecto Ciclo 3\ProyectoArray\src\main\resources\templates" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.com.UdeA.Ciclo3.ProyectoArrayApplication">
     <configuration name="ProyectoArrayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.Ciclo3.ProyectoArray.ProyectoArrayApplication" />
       <module name="ProyectoArray" />
@@ -100,8 +101,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.UdeA.Ciclo3.ProyectoArrayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.UdeA.Ciclo3.ProyectoArrayApplication" />
+      <module name="ProyectoArray" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.UdeA.Ciclo3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.com.UdeA.Ciclo3.ProyectoArrayApplication" />
         <item itemvalue="Application.ProyectoArrayApplication" />
       </list>
     </recent_temporary>
@@ -276,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663900487250</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Agregando comentario">
+      <created>1663900562979</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1663900562979</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -313,6 +335,7 @@
     <MESSAGE value="se crea clase MontosPorEmpleado" />
     <MESSAGE value="modificando codigo" />
     <MESSAGE value="modificando codigo." />
-    <option name="LAST_COMMIT_MESSAGE" value="modificando codigo." />
+    <MESSAGE value="Agregando comentario" />
+    <option name="LAST_COMMIT_MESSAGE" value="Agregando comentario" />
   </component>
 </project>

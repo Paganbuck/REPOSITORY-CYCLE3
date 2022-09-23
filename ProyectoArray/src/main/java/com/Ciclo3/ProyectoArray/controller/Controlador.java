@@ -194,7 +194,7 @@ public class Controlador {
     }
 
         redirectAttributes.addFlashAttribute("mensaje","saveError");
-        return"redirect:/AgregarMovimiento";
+        return"redirect:/agregarMovimientos";
     }
 
 
