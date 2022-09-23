@@ -54,7 +54,7 @@ Crear entidades y repositorios para la empresa.
 Desplegar la interfaz
 
 `
-    Es posible acceder a la interfaz a través de internet
+    Es posible acceder a la interfaz a través de internet...
 `
 
 -------
