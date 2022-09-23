@@ -2,7 +2,7 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 
 <head>
-    <title>EDITAR EMPRESA</title>
+    <title>AGREGAR NUEVA EMPRESA</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -20,25 +20,12 @@
             }
             </style>
 </head>
-
-
 <body>
 <div class="container">
-    <h1>Editar aqui los datos de la empresa</h1> <!--Titulo -->
+    <h1>Agregue aqui los datos de la nueva empresa</h1> <!--Titulo -->
     <br>
     <!--Crear formulario para llenar los datos de la empresa y guardarlo en el objeto emp -->
-    <form th:action="@{/ActualizarEmpresa}" th:object="${empeditada}" method="post">
-
-        <!--Campo para id-->
-        <div class="row">
-            <div class="form-group col-md-12">
-                <label class="col-md-3" for="id">ID de la Empresa:</label>
-                <div class="col-md-6">
-                    <input type="text" th:field="*{id}" class="form-control" id="id" required="required" readonly></div>
-            </div>
-        </div>
-
-
+    <form th:action="@{/GuardarEmpresa}" th:object="${empNueva}" method="post">
 
         <!--Campo para nombre-->
         <div class="row">
@@ -80,11 +67,10 @@
             </div>
         </div>
 
-
         <!--Boton para enviar todo y ejecutar accion -->
         <div class="row">
             <div class="col-md-2">
-                <button class="btn btn-success">Actualizar Empresa</button>
+                <button class="btn btn-success">Crear Empresa</button>
             </div>
         </div>
     </form>
